@@ -29,7 +29,7 @@ let mercedes = Team(color: Color(red: 0.5, green: 0.804, blue: 0.800), imageName
 let ferrari = Team(color: Color(red: 0.718, green: 0.165, blue: 0.263), imageName: "car_ferrari")
 let redbull = Team(color: Color(red: 0.718, green: 0.165, blue: 0.263), imageName: "car_redbull")
 let renault = Team(color: Color(red: 0.718, green: 0.165, blue: 0.263), imageName: "car_renault")
-let mclaren = Team(color: Color(red: 0.718, green: 0.165, blue: 0.263), imageName: "mclaren")
+let mclaren = Team(color: Color(red: 0.718, green: 0.165, blue: 0.263), imageName: "car_mclaren")
 
 let drivers = [
     Driver(id: 0, name: "Lewis Hamilton", imageName: "hamilton", team: mercedes, age: 34, number: 44 , birthPlace: "Reino Unido"),

@@ -22,6 +22,7 @@ struct StatsRow: View {
             Text(StatValue)
             .font(.system(size:30))
             .fontWeight(.ultraLight)
+                .multilineTextAlignment(.trailing)
                 .padding(.trailing, 40)
             
             Spacer()
