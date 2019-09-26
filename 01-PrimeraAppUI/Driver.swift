@@ -25,7 +25,7 @@ struct Team {
     var imageName: String
 }
 
-let mercedes = Team(color: Color(red: 0.965, green: 0.761, blue: 0.275), imageName: "car_mercedes")
+let mercedes = Team(color: Color(red: 0.5, green: 0.804, blue: 0.800), imageName: "car_mercedes")
 let ferrari = Team(color: Color(red: 0.718, green: 0.165, blue: 0.263), imageName: "car_ferrari")
 let redbull = Team(color: Color(red: 0.718, green: 0.165, blue: 0.263), imageName: "car_redbull")
 let renault = Team(color: Color(red: 0.718, green: 0.165, blue: 0.263), imageName: "car_renault")
