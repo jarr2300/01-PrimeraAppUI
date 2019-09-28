@@ -20,14 +20,27 @@ struct DriverList: View {
 
             
                 //DriverRow(driver: driver)
-            }.navigationBarTitle("Formula 1 - 2019")
+        }.navigationBarTitle("Formula 1 - 2019")
     }
 }
 }
 
 struct DriverList_Previews: PreviewProvider {
     static var previews: some View {
+        Group {
         DriverList()
+            .previewDevice("iPhone SE")
+            .environment(\.sizeCategory, .extraLarge)
+            .previewDisplayName("Tamaño mínimo")
+
+            
+            
+            
+        DriverList()
+            .previewDevice("iPhone 11 Pro Max")
+            .environment(\.sizeCategory, .extraExtraLarge)
+            .previewDisplayName("Tamaño máximo")
+        }
     }
 }
  

@@ -18,16 +18,18 @@ struct StatsRow: View {
             Text(StatKey + ":")
                 .font(.system(size:30))
                 .fontWeight(.bold)
-                .padding(.leading, 40)
+                .padding(.leading, 30)
             Text(StatValue)
-            .font(.system(size:30))
-            .fontWeight(.ultraLight)
-                .multilineTextAlignment(.trailing)
-                .padding(.trailing, 40)
+                .font(.system(size:30))
+                .fontWeight(.ultraLight)
+                .minimumScaleFactor(0.5).lineLimit(/*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+                //.multilineTextAlignment(.trailing)
+                .padding(.trailing, 30)
             
             Spacer()
             
-        }
+        }.minimumScaleFactor(0.5).lineLimit(/*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+            .padding(.horizontal)
     }
 }
 //*

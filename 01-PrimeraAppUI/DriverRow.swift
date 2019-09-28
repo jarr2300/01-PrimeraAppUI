@@ -19,16 +19,18 @@ struct DriverRow: View {
             Image(driver.imageName)
                 .resizable()
                 .scaledToFit()
-                
+                .frame(width:75.0, height: 75)
                 .clipShape(Circle())
                 .background(Circle().foregroundColor(driver.team.color))
                 .padding(.leading, 10)
+
                 //.overlay(Circle().stroke(Color.white, lineWidth: 3))
                 //.shadow(radius: 8)
           
             
             Text(driver.name)
                 .font(.largeTitle)
+                .minimumScaleFactor(0.2).lineLimit(/*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
                 .padding(.trailing, 10)
             Spacer()
             
